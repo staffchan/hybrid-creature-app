@@ -19,19 +19,6 @@ animal_traits_ja = {
     "ワシ": {"体型": "がっしりとした体", "脚": "鋭い爪の足", "特徴": "空を滑空する狩人", "肌": "羽毛に覆われた体", "動き": "高く飛び滑空", "環境": "山岳地帯"},
     "フラミンゴ": {"体型": "細長く優雅な体", "脚": "非常に長い脚", "特徴": "ピンク色で群れる鳥", "肌": "なめらかな羽毛", "動き": "水辺で片足立ち", "環境": "湿地や湖畔"},
     "クジャク": {"体型": "中型で扇状の尾羽を持つ", "脚": "鋭い爪の足", "特徴": "華やかな尾を持つ", "肌": "鮮やかな羽毛", "動き": "尾羽を広げて歩く", "環境": "森の縁や平地"}
-    "ネコ": {"体型": "しなやかで小柄な体", "脚": "柔らかく鋭い爪の足", "特徴": "気まぐれで素早い", "肌": "短毛でなめらか", "動き": "静かに歩き、素早く跳ねる", "環境": "家屋や都市、森"},
-    "シカ": {"体型": "細身で足の長い体", "脚": "速く走れる四肢", "特徴": "警戒心が強く俊敏", "肌": "短い毛皮", "動き": "跳ねるように走る", "環境": "森林や草原"},
-    "イヌ": {"体型": "筋肉質で中型の体", "脚": "頑丈な足", "特徴": "忠実で活発", "肌": "短毛または長毛", "動き": "走るのが得意", "環境": "家庭や野外"},
-    "ツル": {"体型": "背が高く細い体", "脚": "長い脚", "特徴": "優雅で静か", "肌": "白くてなめらかな羽毛", "動き": "水辺をゆっくり歩く", "環境": "湿地や湖畔"},
-    "シマウマ": {"体型": "がっしりとした草食動物の体", "脚": "速く走れる四肢", "特徴": "縞模様で群れる性質", "肌": "白黒の短毛", "動き": "草原を駆ける", "環境": "アフリカのサバンナ"},
-    "カモノハシ": {"体型": "平たいくちばしと低い体", "脚": "水かきのついた足", "特徴": "水陸両生で珍しい外見", "肌": "短くて柔らかい毛", "動き": "泳いだり這うように歩く", "環境": "川辺や湿地"},
-    "ハシビロコウ": {"体型": "大きくがっしりとした体", "脚": "太く長い脚", "特徴": "動かず静かに獲物を狙う", "肌": "灰色の羽毛", "動き": "ゆっくりと慎重に動く", "環境": "湿地帯"},
-    "ゴリラ": {"体型": "大型で筋肉質な体", "脚": "太くて力強い腕と足", "特徴": "群れで生活し穏やか", "肌": "黒く短い毛", "動き": "ナックルウォークで歩く", "環境": "熱帯雨林"},
-    "ゾウ": {"体型": "非常に大きな体", "脚": "太くて柱のような脚", "特徴": "知能が高く温厚", "肌": "厚くしわのある肌", "動き": "ゆっくりと大地を踏みしめる", "環境": "草原や森林"},
-    "ウサギ": {"体型": "小柄で丸みを帯びた体", "脚": "強くて跳ねる後ろ脚", "特徴": "臆病で素早い", "肌": "ふわふわの毛", "動き": "跳ねるように走る", "環境": "草原や林"},
-    "キツネ": {"体型": "スリムでしなやかな体", "脚": "素早く走れる足", "特徴": "狡猾で好奇心旺盛", "肌": "赤褐色の柔らかな毛", "動き": "静かに歩きすばやく動く", "環境": "森や山野"},
-    "タヌキ": {"体型": "丸っこく柔らかな体", "脚": "短く太い足", "特徴": "のんびりで人懐っこい", "肌": "ふさふさの毛", "動き": "ちょこちょこと歩く", "環境": "里山や農村"},
-    "ヒツジ": {"体型": "ふっくらとした体", "脚": "しっかりとした四肢", "特徴": "おだやかで集団行動する", "肌": "もこもこの羊毛", "動き": "のんびり歩く", "環境": "牧草地や丘陵地"}
 }
 
 animal_traits_en = {
@@ -55,17 +42,4 @@ animal_traits_en = {
     "ワシ": {"name": "eagle", "body": "powerful", "limbs": "taloned feet", "vibe": "soaring hunter", "texture": "feathered", "movement": "gliding", "habitat": "mountains"},
     "フラミンゴ": {"name": "flamingo", "body": "slender and elegant", "limbs": "long legs", "vibe": "pink and graceful", "texture": "smooth feathers", "movement": "standing on one leg", "habitat": "wetlands and lakes"},
     "クジャク": {"name": "peacock", "body": "medium and decorated", "limbs": "clawed feet", "vibe": "flamboyant", "texture": "vivid plumage", "movement": "strutting and displaying", "habitat": "open forest and grassland"}
-    "ネコ": {"name": "Cat", "body": "slender and small", "limbs": "soft feet with sharp claws", "vibe": "whimsical and agile", "texture": "short smooth fur", "movement": "silent and quick", "habitat": "homes, cities, forests"},
-    "シカ": {"name": "Deer", "body": "lean with long legs", "limbs": "swift-running legs", "vibe": "alert and graceful", "texture": "short fur", "movement": "bounding stride", "habitat": "forests and meadows"},
-    "イヌ": {"name": "Dog", "body": "muscular and medium-sized", "limbs": "strong legs", "vibe": "loyal and energetic", "texture": "short or long fur", "movement": "good runner", "habitat": "homes and outdoors"},
-    "ツル": {"name": "Crane", "body": "tall and slender", "limbs": "long legs", "vibe": "elegant and calm", "texture": "smooth white feathers", "movement": "slowly walking in wetlands", "habitat": "lakes and marshes"},
-    "シマウマ": {"name": "Zebra", "body": "robust herbivore build", "limbs": "fast-running legs", "vibe": "striped and social", "texture": "short black-and-white fur", "movement": "galloping across plains", "habitat": "African savanna"},
-    "カモノハシ": {"name": "Platypus", "body": "flat-billed and low", "limbs": "webbed feet", "vibe": "amphibious and unique", "texture": "short soft fur", "movement": "swims and waddles", "habitat": "riversides and wetlands"},
-    "ハシビロコウ": {"name": "Shoebill", "body": "large and bulky", "limbs": "thick long legs", "vibe": "still and focused predator", "texture": "gray feathers", "movement": "slow and precise", "habitat": "swamplands"},
-    "ゴリラ": {"name": "Gorilla", "body": "large and muscular", "limbs": "powerful arms and legs", "vibe": "gentle and social", "texture": "short black hair", "movement": "knuckle-walking", "habitat": "tropical rainforests"},
-    "ゾウ": {"name": "Elephant", "body": "very large and heavy", "limbs": "pillar-like legs", "vibe": "intelligent and calm", "texture": "thick wrinkled skin", "movement": "slow and steady", "habitat": "grasslands and forests"},
-    "ウサギ": {"name": "Rabbit", "body": "small and round", "limbs": "strong hind legs", "vibe": "timid and fast", "texture": "fluffy fur", "movement": "hopping", "habitat": "fields and woods"},
-    "キツネ": {"name": "Fox", "body": "slim and agile", "limbs": "swift legs", "vibe": "clever and curious", "texture": "soft reddish fur", "movement": "silent and quick", "habitat": "forests and hills"},
-    "タヌキ": {"name": "Raccoon dog", "body": "round and soft", "limbs": "short sturdy legs", "vibe": "easygoing and sociable", "texture": "fluffy fur", "movement": "toddling", "habitat": "rural areas and woods"},
-    "ヒツジ": {"name": "Sheep", "body": "plump and wooly", "limbs": "steady legs", "vibe": "gentle and flock-oriented", "texture": "thick wool", "movement": "calm walking", "habitat": "pastures and hills"}
 }

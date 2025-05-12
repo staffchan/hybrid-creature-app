@@ -19,7 +19,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-from animal_traits import animal_traits_ja, animal_traits_en
 
 st.set_page_config(page_title="キメラプロンプト生成", layout="centered")
 

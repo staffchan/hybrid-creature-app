@@ -20,8 +20,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(page_title="キメラプロンプト生成", layout="centered")
-
 st.title("キメラ融合プロンプト生成アプリ")
 st.markdown("2体の動物を選ぶと、融合されたクリーチャーの英語・日本語プロンプトが生成されます。")
 

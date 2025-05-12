@@ -8,23 +8,10 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
-        background: radial-gradient(
-                        circle at 50% 15%, 
-                        rgba(255, 255, 210, 0.25), 
-                        rgba(30, 30, 47, 0.9) 60%
-                    ),
-                    linear-gradient(
-                        to bottom, 
-                        #1e1e2f 0%, 
-                        #161622 100%
-                    );
-        background-repeat: no-repeat;
+        background-image: url('https://raw.githubusercontent.com/staffchan/hybrid-creature-app/main/u1565498545_a_mystical_forest_shrouded_in_mist_illuminated_by_9ba09636-f39b-47f6-93d4-bc026d746129_2.png');
+        background-size: cover;
+        background-position: center;
         background-attachment: fixed;
-    }
-
-    [data-testid="stAppViewContainer"] * {
-        color: #f0f8ff;
-        font-family: 'serif';
     }
     </style>
     """,

@@ -8,9 +8,16 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
-        background: radial-gradient(circle at 60% 20%, rgba(255, 255, 210, 0.15), transparent 50%),
-                    radial-gradient(circle at 20% 70%, rgba(255, 255, 240, 0.05), transparent 60%),
-                    linear-gradient(to bottom, #1e1e2f 0%, #2a2a3d 100%);
+        background: radial-gradient(
+                        circle at 50% 15%, 
+                        rgba(255, 255, 210, 0.25), 
+                        rgba(30, 30, 47, 0.9) 60%
+                    ),
+                    linear-gradient(
+                        to bottom, 
+                        #1e1e2f 0%, 
+                        #161622 100%
+                    );
         background-repeat: no-repeat;
         background-attachment: fixed;
     }

@@ -38,3 +38,62 @@ if st.button("プロンプト生成"):
     st.code(en, language="text")
     st.subheader("日本語プロンプト")
     st.code(ja, language="text")
+import openai
+
+# --- 動物名から特徴を自動生成して辞書に追加するUI ---
+st.header("🧠 動物名からキメラ候補をAI補完で追加")
+
+new_animal_name = st.text_input("追加したい動物名（日本語）を入力してください")
+
+if st.button("AIで動物を追加"):
+    if new_animal_name:
+        with st.spinner("AIが特徴を考え中..."):
+            prompt = f"""
+あなたは動物辞書の設計者です。
+以下の動物について、6つの特徴を日本語と英語でそれぞれ出力してください。
+
+## 出力形式（辞書として構成してください）:
+animal_traits_ja = {{
+    "{new_animal_name}": {{
+        "体型": "...",
+        "脚": "...",
+        "特徴": "...",
+        "肌": "...",
+        "動き": "...",
+        "環境": "..."
+    }}
+}}
+
+animal_traits_en = {{
+    "{new_animal_name}": {{
+        "name": "...",
+        "body": "...",
+        "limbs": "...",
+        "vibe": "...",
+        "texture": "...",
+        "movement": "...",
+        "habitat": "..."
+    }}
+}}
+"""
+
+            try:
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.8,
+                )
+                generated = response.choices[0].message.content
+
+                # 安全に eval で辞書抽出（推奨は json.loads + 正規化）
+                local_vars = {}
+                exec(generated, {}, local_vars)
+
+                animal_traits_ja.update(local_vars.get("animal_traits_ja", {}))
+                animal_traits_en.update(local_vars.get("animal_traits_en", {}))
+
+                st.success(f"{new_animal_name} を辞書に追加しました！")
+            except Exception as e:
+                st.error(f"生成中にエラーが発生しました: {e}")
+    else:
+        st.warning("動物名を入力してください")

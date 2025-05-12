@@ -19,6 +19,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+from animal_traits import animal_traits_ja, animal_traits_en
 
 st.title("キメラ融合プロンプト生成アプリ")
 st.markdown("2体の動物を選ぶと、融合されたクリーチャーの英語・日本語プロンプトが生成されます。")

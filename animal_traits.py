@@ -1,175 +1,45 @@
 animal_traits_ja = {
-    "フクロウ": {
-        "体型": "小柄で丸みのある体",
-        "脚": "鋭い爪を持つ足",
-        "特徴": "知的で神秘的",
-        "肌": "ふわふわの羽毛",
-        "動き": "静かに滑空する",
-        "環境": "夜の森"
-    },
-    "トラ": {
-        "体型": "筋肉質でしなやか",
-        "脚": "力強い足",
-        "特徴": "俊敏で優雅なハンター",
-        "肌": "短く硬い毛",
-        "動き": "素早く静かに動く",
-        "環境": "ジャングル"
-    },
-    "イルカ": {
-        "体型": "流線型でなめらかな体",
-        "脚": "ひれのような手足",
-        "特徴": "知的で社交的",
-        "肌": "つるつるとした肌",
-        "動き": "水中を高速で泳ぐ",
-        "環境": "温暖な海"
-    },
-    "ブタ": {
-        "体型": "丸くてずんぐりした体",
-        "脚": "短くがっしりした足",
-        "特徴": "人懐っこく好奇心旺盛",
-        "肌": "ピンク色でやわらかい肌",
-        "動き": "のんびり歩く",
-        "環境": "農場や牧場"
-    },
-    "ニワトリ": {
-        "体型": "小型で軽やかな体",
-        "脚": "細くて鋭い足",
-        "特徴": "せわしなくて警戒心が強い",
-        "肌": "羽毛と鱗の混合",
-        "動き": "飛び跳ねながら動く",
-        "環境": "農場や地面近く"
-    },
-    "牛": {
-        "体型": "大きくてどっしりした体",
-        "脚": "しっかりとした四足",
-        "特徴": "穏やかでマイペース",
-        "肌": "厚くて短毛の皮膚",
-        "動き": "ゆっくり歩く",
-        "環境": "牧草地や農場"
-    },
-    "ワニ": {
-        "体型": "細長くて強靭な体",
-        "脚": "低く構えた四足",
-        "特徴": "無表情で冷静な捕食者",
-        "肌": "硬くざらついた鱗",
-        "動き": "這うように進み水中で素早い",
-        "環境": "川辺や沼地"
-    },
-    "ハチドリ": {
-        "体型": "小さく軽やかな体",
-        "脚": "小さくて細い足",
-        "特徴": "素早く繊細で活発",
-        "肌": "光沢ある羽毛",
-        "動き": "空中でホバリングする",
-        "環境": "花咲く草原や森"
-    },
-    "クマ": {
-        "体型": "大きく筋肉質な体",
-        "脚": "太くて力強い足",
-        "特徴": "力強くも愛嬌がある",
-        "肌": "分厚くてふさふさの毛皮",
-        "動き": "のっしりと歩くが素早く走れる",
-        "環境": "森林や山間部"
-    },
-    "キリン": {
-        "体型": "首が非常に長くてスリムな体",
-        "脚": "長くしなやかな脚",
-        "特徴": "おっとりして見晴らしがいい",
-        "肌": "短毛で斑点模様",
-        "動き": "優雅に歩く",
-        "環境": "サバンナ"
-    }
+    "フクロウ": {"体型": "小柄で丸みのある体", "脚": "鋭い爪", "特徴": "神秘的で知的", "肌": "ふわふわの羽毛", "動き": "滑空する", "環境": "夜の森"},
+    "トラ": {"体型": "しなやかな筋肉質", "脚": "力強い脚", "特徴": "俊敏で優雅", "肌": "短い毛", "動き": "静かに歩く", "環境": "ジャングル"},
+    "イルカ": {"体型": "流線型", "脚": "ヒレ", "特徴": "知的で社交的", "肌": "滑らか", "動き": "水中で泳ぐ", "環境": "海"},
+    "ハチドリ": {"体型": "小さく軽やか", "脚": "小さい足", "特徴": "華やかで活発", "肌": "虹色の羽毛", "動き": "空中で静止", "環境": "花のある場所"},
+    "ブタ": {"体型": "丸い体", "脚": "短い脚", "特徴": "好奇心旺盛", "肌": "ピンクで柔らかい", "動き": "のんびり歩く", "環境": "牧場"},
+    "ニワトリ": {"体型": "小型", "脚": "細くて鋭い", "特徴": "警戒心が強い", "肌": "羽毛", "動き": "地面を跳ねる", "環境": "農場"},
+    "牛": {"体型": "大型でがっしり", "脚": "太く安定", "特徴": "穏やか", "肌": "短毛", "動き": "ゆっくり歩く", "環境": "牧草地"},
+    "ワニ": {"体型": "細長く筋肉質", "脚": "低い足", "特徴": "冷静な捕食者", "肌": "硬い鱗", "動き": "這う", "環境": "川辺"},
+    "クマ": {"体型": "大きく強い", "脚": "太い脚", "特徴": "力強いが愛嬌", "肌": "厚い毛", "動き": "ゆっくり歩く", "環境": "森林"},
+    "キリン": {"体型": "首が長い", "脚": "長い足", "特徴": "高い視野", "肌": "短毛と模様", "動き": "優雅に歩く", "環境": "サバンナ"},
+    "ペンギン": {"体型": "丸い胴体", "脚": "短くて平たい足", "特徴": "愛らしく氷上を滑る", "肌": "なめらかで光沢のある羽毛", "動き": "滑るように移動", "環境": "極地"},
+    "カメレオン": {"体型": "細身で柔軟", "脚": "指が分かれた足", "特徴": "色が変化する", "肌": "ざらついた鱗", "動き": "ゆっくり移動", "環境": "熱帯林"},
+    "サル": {"体型": "機敏で小型", "脚": "手足のような四肢", "特徴": "賢くて好奇心旺盛", "肌": "柔らかい毛", "動き": "木登りやジャンプ", "環境": "ジャングル"},
+    "タコ": {"体型": "柔らかく丸い", "脚": "8本の吸盤付き腕", "特徴": "変幻自在", "肌": "ぬめりのある肌", "動き": "水中を自在に移動", "環境": "海中"},
+    "カバ": {"体型": "巨大で重量感のある体", "脚": "短く太い脚", "特徴": "穏やかだが力強い", "肌": "灰色で厚い皮膚", "動き": "水中を歩く", "環境": "川辺"},
+    "カエル": {"体型": "小型でぴょんぴょん跳ねる体", "脚": "長く強い後脚", "特徴": "ぬめりのある皮膚", "肌": "滑らかでしっとり", "動き": "ジャンプする", "環境": "湿地"},
+    "パンダ": {"体型": "ずんぐりむっくり", "脚": "短くて太い脚", "特徴": "のんびりしてかわいい", "肌": "白黒のふわふわの毛", "動き": "ゆっくり動く", "環境": "竹林"},
+    "ワシ": {"体型": "がっしりとした体", "脚": "鋭い爪の足", "特徴": "空を滑空する狩人", "肌": "羽毛に覆われた体", "動き": "高く飛び滑空", "環境": "山岳地帯"},
+    "フラミンゴ": {"体型": "細長く優雅な体", "脚": "非常に長い脚", "特徴": "ピンク色で群れる鳥", "肌": "なめらかな羽毛", "動き": "水辺で片足立ち", "環境": "湿地や湖畔"},
+    "クジャク": {"体型": "中型で扇状の尾羽を持つ", "脚": "鋭い爪の足", "特徴": "華やかな尾を持つ", "肌": "鮮やかな羽毛", "動き": "尾羽を広げて歩く", "環境": "森の縁や平地"}
 }
 
 animal_traits_en = {
-    "フクロウ": {
-        "name": "owl",
-        "body": "compact and rounded",
-        "limbs": "sharp taloned feet",
-        "vibe": "mysterious and intelligent presence",
-        "texture": "soft, fluffy feathers",
-        "movement": "gliding silently through the air",
-        "habitat": "nocturnal forests"
-    },
-    "トラ": {
-        "name": "tiger",
-        "body": "muscular and sleek",
-        "limbs": "powerful legs",
-        "vibe": "graceful and agile predator",
-        "texture": "short, coarse fur",
-        "movement": "moving silently with swift power",
-        "habitat": "dense jungle"
-    },
-    "イルカ": {
-        "name": "dolphin",
-        "body": "streamlined and smooth",
-        "limbs": "flipper-like limbs",
-        "vibe": "intelligent and social",
-        "texture": "sleek, rubbery skin",
-        "movement": "swimming swiftly through water",
-        "habitat": "warm ocean waters"
-    },
-    "ブタ": {
-        "name": "pig",
-        "body": "round and stocky",
-        "limbs": "short and sturdy legs",
-        "vibe": "friendly and curious",
-        "texture": "soft pink skin",
-        "movement": "plodding along the ground",
-        "habitat": "farms and pastures"
-    },
-    "ニワトリ": {
-        "name": "chicken",
-        "body": "small and lightweight",
-        "limbs": "thin legs with sharp claws",
-        "vibe": "alert and twitchy",
-        "texture": "feathers and scaly legs",
-        "movement": "hopping and darting",
-        "habitat": "barnyards and low ground"
-    },
-    "牛": {
-        "name": "cow",
-        "body": "large and heavyset",
-        "limbs": "solid and grounded legs",
-        "vibe": "calm and steady",
-        "texture": "short, dense fur",
-        "movement": "slowly walking",
-        "habitat": "grassy fields and farms"
-    },
-    "ワニ": {
-        "name": "crocodile",
-        "body": "long and muscular",
-        "limbs": "low crouching legs",
-        "vibe": "stoic and deadly predator",
-        "texture": "rough, scaly skin",
-        "movement": "slithering on land, swift in water",
-        "habitat": "riversides and swamps"
-    },
-    "ハチドリ": {
-        "name": "hummingbird",
-        "body": "tiny and lightweight",
-        "limbs": "tiny feet for perching",
-        "vibe": "delicate and energetic",
-        "texture": "iridescent feathers",
-        "movement": "hovering in mid-air",
-        "habitat": "flower-filled meadows"
-    },
-    "クマ": {
-        "name": "bear",
-        "body": "large and muscular",
-        "limbs": "thick, powerful legs",
-        "vibe": "strong yet gentle",
-        "texture": "dense, furry coat",
-        "movement": "lumbering walk, bursts of speed",
-        "habitat": "forests and mountains"
-    },
-    "キリン": {
-        "name": "giraffe",
-        "body": "slender with an extremely long neck",
-        "limbs": "long, graceful legs",
-        "vibe": "gentle and observant",
-        "texture": "spotted short fur",
-        "movement": "gracefully striding",
-        "habitat": "savannas"
-    }
+    "フクロウ": {"name": "owl", "body": "compact and rounded", "limbs": "sharp talons", "vibe": "mysterious and intelligent", "texture": "fluffy feathers", "movement": "gliding silently", "habitat": "nocturnal forests"},
+    "トラ": {"name": "tiger", "body": "sleek and muscular", "limbs": "powerful legs", "vibe": "agile and graceful", "texture": "short fur", "movement": "moving silently", "habitat": "jungles"},
+    "イルカ": {"name": "dolphin", "body": "streamlined", "limbs": "fins", "vibe": "intelligent and social", "texture": "smooth skin", "movement": "swimming fast", "habitat": "ocean"},
+    "ハチドリ": {"name": "hummingbird", "body": "tiny and light", "limbs": "small feet", "vibe": "vivid and energetic", "texture": "iridescent feathers", "movement": "hovering mid-air", "habitat": "flower meadows"},
+    "ブタ": {"name": "pig", "body": "round", "limbs": "short legs", "vibe": "curious and friendly", "texture": "pink soft skin", "movement": "plodding", "habitat": "farms"},
+    "ニワトリ": {"name": "chicken", "body": "small", "limbs": "thin legs", "vibe": "alert and twitchy", "texture": "feathered", "movement": "hopping", "habitat": "barnyards"},
+    "牛": {"name": "cow", "body": "heavy and solid", "limbs": "sturdy legs", "vibe": "gentle and calm", "texture": "short fur", "movement": "slowly walking", "habitat": "fields"},
+    "ワニ": {"name": "crocodile", "body": "elongated and strong", "limbs": "low squat legs", "vibe": "calm and deadly", "texture": "rough scales", "movement": "crawling", "habitat": "riverbanks"},
+    "クマ": {"name": "bear", "body": "large and strong", "limbs": "thick legs", "vibe": "strong but gentle", "texture": "thick fur", "movement": "slow walking", "habitat": "forests"},
+    "キリン": {"name": "giraffe", "body": "tall with long neck", "limbs": "long legs", "vibe": "gentle and observant", "texture": "spotted short fur", "movement": "gracefully walking", "habitat": "savannas"},
+    "ペンギン": {"name": "penguin", "body": "rounded torso", "limbs": "short flat feet", "vibe": "cute and waddling", "texture": "glossy feathers", "movement": "sliding on ice", "habitat": "polar regions"},
+    "カメレオン": {"name": "chameleon", "body": "slim and flexible", "limbs": "split-fingered limbs", "vibe": "color-shifting", "texture": "rough scales", "movement": "slowly crawling", "habitat": "tropical forests"},
+    "サル": {"name": "monkey", "body": "agile and small", "limbs": "gripping limbs", "vibe": "clever and curious", "texture": "soft fur", "movement": "climbing and jumping", "habitat": "jungles"},
+    "タコ": {"name": "octopus", "body": "soft and round", "limbs": "eight suctioned arms", "vibe": "morphing and elusive", "texture": "slippery skin", "movement": "floating underwater", "habitat": "ocean"},
+    "カバ": {"name": "hippopotamus", "body": "massive and heavy", "limbs": "short thick legs", "vibe": "gentle yet strong", "texture": "gray thick skin", "movement": "walking underwater", "habitat": "riverside"},
+    "カエル": {"name": "frog", "body": "small and springy", "limbs": "long jumping legs", "vibe": "moist and reactive", "texture": "smooth", "movement": "jumping", "habitat": "wetlands"},
+    "パンダ": {"name": "panda", "body": "plump", "limbs": "short and thick legs", "vibe": "gentle and cute", "texture": "black and white fur", "movement": "slow moving", "habitat": "bamboo forest"},
+    "ワシ": {"name": "eagle", "body": "powerful", "limbs": "taloned feet", "vibe": "soaring hunter", "texture": "feathered", "movement": "gliding", "habitat": "mountains"},
+    "フラミンゴ": {"name": "flamingo", "body": "slender and elegant", "limbs": "long legs", "vibe": "pink and graceful", "texture": "smooth feathers", "movement": "standing on one leg", "habitat": "wetlands and lakes"},
+    "クジャク": {"name": "peacock", "body": "medium and decorated", "limbs": "clawed feet", "vibe": "flamboyant", "texture": "vivid plumage", "movement": "strutting and displaying", "habitat": "open forest and grassland"}
 }
